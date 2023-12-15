@@ -2,8 +2,6 @@
 
 This Python program is a script for performing steganography on video files, specifically AVI and MOV formats. Steganography is the practice of hiding information within a medium, such as an image or video, in a way that is not immediately apparent to an observer.
 
-![General usage example](demo.png)
-
 Here's a breakdown of what this script does:
 
 - It starts by importing the necessary libraries, including `cv2` for video processing and `numpy` for numerical operations.
@@ -26,6 +24,23 @@ Here's a breakdown of what this script does:
 The script uses ANSI escape codes for text colors to provide a more user-friendly command-line interface.
 
 You can use this script to hide and extract messages in video files, allowing you to perform steganography on videos.
+
+## Installation
+
+1. Make sure you have Python 3 installed on your system.
+2. Install the required packages using the following command:
+   ```
+   pip install opencv-python numpy
+   ```
+
+## Usage
+
+1. Run the `stego_motion.py` script using the command:
+   ```
+   python stego_motion.py <target AVI or MOV file>
+   ```
+2. Select the desired mode of operation (hide or detect) and follow the dialogue as seen below:
+![General usage example](demo.png)
 
 ## Lossless Video Steganography
 
