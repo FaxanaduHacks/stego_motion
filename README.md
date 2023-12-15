@@ -32,19 +32,16 @@ This steganography script utilizes a **lossless** video codec, which means that 
 ### Why is the video file size large?
 
 - **Lossless Compression:** Lossless compression ensures that no information is discarded during the encoding process. Every pixel and frame is preserved with utmost fidelity, maintaining the video's original quality.
-
 - **Uncompressed Frames:** The script embeds hidden data within individual frames of the video. To maintain lossless quality, each frame remains uncompressed, contributing to the overall file size.
 
 ### Considerations:
 
 - **Storage Space:** Be aware that the resulting video files can be **considerably large**. Ensure you have sufficient storage capacity when working with these lossless steganography videos.
-
 - **Transmission:** When sharing or transmitting these videos, consider the time and bandwidth required, especially if you are dealing with lengthy videos.
 
 ### Benefits:
 
 - **High Quality:** Lossless videos are suitable for applications where maintaining the highest possible video quality is essential, such as forensic analysis, archiving, or situations where every pixel matters.
-
 - **Message Preservation:** The lossless nature of the video ensures that any hidden messages are preserved with complete fidelity, minimizing the risk of data loss.
 
 Remember that the choice between lossless and lossy compression depends on your specific use case and priorities. Lossless compression prioritizes quality, while lossy compression sacrifices some quality to achieve smaller file sizes.
