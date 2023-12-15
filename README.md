@@ -2,6 +2,8 @@
 
 This Python program is a script for performing steganography on video files, specifically AVI and MOV formats. Steganography is the practice of hiding information within a medium, such as an image or video, in a way that is not immediately apparent to an observer.
 
+![General usage example](demo.png)
+
 Here's a breakdown of what this script does:
 
 - It starts by importing the necessary libraries, including `cv2` for video processing and `numpy` for numerical operations.
