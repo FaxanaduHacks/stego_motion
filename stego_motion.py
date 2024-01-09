@@ -181,8 +181,8 @@ def main():
     red = '\033[91m'
 
     print(cyan + "Select the mode of operation:")
-    print(magenta + "D." + white + " Detection")
-    print(magenta + "H." + white + " Hiding the message")
+    print(magenta + "D." + white + " Detect Message")
+    print(magenta + "H." + white + " Hide Message")
 
     mode = input(cyan + "Enter the mode (D/H): " + white)
     stego = StegoMotion(video_file)
